@@ -1,20 +1,20 @@
 	<cfscript>
 	testSuite = new mxunit.framework.TestSuite();
 
-	testSuite.addAll("Koans.AboutAsserts");
-	testSuite.addAll("Koans.AboutVariables");
-	testSuite.addAll("Koans.AboutBooleans");
-	testSuite.addAll("Koans.AboutStrings");
-	testSuite.addAll("Koans.AboutNumbers");
-	testSuite.addAll("Koans.AboutDates");
-	testSuite.addAll("Koans.AboutArrays");
-	testSuite.addAll("Koans.AboutStructs");
-	testSuite.addAll("Koans.AboutLists");
-	testSuite.addAll("Koans.AboutFunctions");
-	testSuite.addAll("Koans.AboutComponents");
-	testSuite.addAll("Koans.AboutComponentTags");
-	testSuite.addAll("Koans.AboutExceptions");
-	testSuite.addAll("Koans.AboutQueries");
+	testSuite.addAll("Koans.AboutAssertsTest");
+	testSuite.addAll("Koans.AboutVariablesTest");
+	testSuite.addAll("Koans.AboutBooleansTest");
+	testSuite.addAll("Koans.AboutStringsTest");
+	testSuite.addAll("Koans.AboutNumbersTest");
+	testSuite.addAll("Koans.AboutDatesTest");
+	testSuite.addAll("Koans.AboutArraysTest");
+	testSuite.addAll("Koans.AboutStructsTest");
+	testSuite.addAll("Koans.AboutListsTest");
+	testSuite.addAll("Koans.AboutFunctionsTest");
+	testSuite.addAll("Koans.AboutComponentsTest");
+	testSuite.addAll("Koans.AboutComponentTagsTest");
+	testSuite.addAll("Koans.AboutExceptionsTest");
+	testSuite.addAll("Koans.AboutQueriesTest");
 
 	results = testSuite.run();
 
